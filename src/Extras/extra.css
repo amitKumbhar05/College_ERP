@@ -1,0 +1,178 @@
+/* Navbar container */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Navbar list */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navbar list item */
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  /* Navbar link */
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Navbar link hover */
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+
+
+  /* _________________________________________________________________________________________________ */
+
+  .profile-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .profile-info {
+    font-size: 16px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+/* ------------------------------------------------------------------------------- */
+
+  .admin-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-user-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .add-user-button:hover {
+    background-color: #2980b9;
+  }
+  
+
+
+  /* ---------------------------------------------------------------------- */
+  .login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .btncl{
+    margin-bottom: 10px;
+  }
+
+  /* ------------------------------------------- */
+
+  .table-container {
+    width: 100%;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+
+  /* ___________________________________________________ */
+  #23{
+    text-align: left;
+  }
+
+  .user-messages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .user-message-block {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .user-id {
+    font-weight: bold;
+  }
+  
+  .user-message {
+    margin-top: 10px;
+  }
+
+  
+  /* =========================================================== */
